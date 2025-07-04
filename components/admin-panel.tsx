@@ -11,6 +11,7 @@ interface Product {
   price: number
   downloadUrl: string
   salesCount: number
+  downloadPageContent: string; // New field for download page specific content
 }
 
 interface Review {
